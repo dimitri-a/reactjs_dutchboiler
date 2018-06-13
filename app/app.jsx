@@ -12,6 +12,7 @@ import { createStore } from 'redux';
 import Nothing from './components/nothing';
 
 import reducer from './components/reducers'
+import Greeting from './components/greet';
 
 const store = createStore(reducer)
 
@@ -19,6 +20,8 @@ const App = () => (
     <Provider store={store}>
         <div>
            <Nothing></Nothing>
+            <Greeting/>
+            <Greeting/>
         </div>
     </Provider>
 );

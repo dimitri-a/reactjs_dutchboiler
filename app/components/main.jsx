@@ -4,6 +4,7 @@ class Main extends React.Component {
 
     render() {
         console.log(this.props.children);
+
         return (
             <div>
                 <h1>Main</h1>
